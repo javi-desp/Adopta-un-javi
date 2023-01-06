@@ -50,22 +50,22 @@ A este javi le gusta la musica, es un chico muy tabajador que a veces luce del d
 </table>
 </table>
 <table>
-<tr>
-<form action="enviar.php" id="formulario1" name="formulario1">
-	<th>
-		
-		Nombre: <input type="text" name="Nombre" form="formulario1"></th>
-	<th> 
-		Apellidos: <input type="text" name="apellidos" form="formulario1"></th>
-	<th>
-		E-mail: <input type="email" name="email" autocomplete="off"></th>
-	<th>
-		Teléfono: <input type="text" name="telefono" form="formulario1"></th>
-</tr>
-<tr>
-	<th>
-		<input type="submit" name="enviar" value="enviar" form="formulario1"></th>
-</tr>
+	<tr>
+		<form name="input" method="POST" action="https://formspree.io/f/mjvdveep">
+			<th>
+				
+				Nombre: <input type="text" name="Nombre" placeholder="Your name"></th>
+			<th> 
+				Apellidos: <input type="text" name="apellidos" placeholder="Your email"></th>
+			<th>
+				E-mail: <input type="email" name="email" placeholder="Your email"></th>
+			<th>
+				Teléfono: <input type="text" name="telefono" placeholder="Your tf number"></th>
+		</tr>
+		<tr>
+			<th>
+				<input type="submit" name="enviar" value="Send" ></th>
+		</tr>
 </form>
 </table>
 				
